@@ -1,0 +1,78 @@
+@font-face{
+    font-family: 'DigitalArcade';
+    src: url('../fonts/DigitalArcade.ttf') format('truetype');
+}
+*,input,label, ::placeholder{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+body{
+    background-color: gainsboro;
+    background: url("https://img.freepik.com/fotos-premium/conceito-panoramico-de-fundo-escolar-estudo-de-conhecimento-aprendizagem-imagem-gerada-por-ia_532963-8776.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+}
+.form-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.container-form{
+    background-color: #f1f1f1d2;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: #00000056 10px 6px 4px;
+}
+.header-login{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+.header-login h1{
+    font-family: 'DigitalArcade';
+    font-size: 3rem;
+    color: #101014;
+    margin-top: 2rem;
+}
+.header-login h2{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    color: #101014;
+}
+.header-img{
+    width: 150px;
+}
+.input-nome{
+    border: 2px solid #101014;
+    outline: none;
+    border-radius: 8px;
+    color: #101014;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+}
+.button-login{
+    background-color: #fd7b7b;
+    color: #efeaea;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.button-login:disabled{
+    background-color: #959595;
+    color: #404040;;
+}
